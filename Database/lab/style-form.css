@@ -1,0 +1,152 @@
+body{
+    background: linear-gradient(200deg,lightpink ,deeppink, purple);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    display: grid;
+    grid-template-columns: auto auto;
+  
+}
+
+section{
+    background-color:white;
+    color: black;
+    width: 500px;
+    height: 600px;
+    border: 2px rgb(255, 255, 255);
+    border-style: outset;
+    text-align: center;
+    position:relative;
+    margin: auto;
+    margin-top: 70px;
+}
+
+button{
+    color: #000;
+    border-radius: 30px;
+    margin-top: 35px;
+    padding: 16px 25px;
+    font-size: larger;
+    border-color: palevioletred;
+    text-align: center;
+    width: 150px;
+    font-family: cursive;
+    cursor: pointer;
+
+}
+button:active{
+    transform: translateY(4px);
+}
+button:hover{
+    background-color: rgb(198, 164, 230);
+}
+#b1{
+    margin-right: 40px;
+    background-color: rgb(177, 35, 182);
+    color: aliceblue;
+}
+#b2,#b3{
+    margin-left: 20px;
+}
+.a1{
+    text-decoration: none;
+    color: #000;
+}
+div{
+    margin: 30px;
+    font-size:larger;   
+
+}
+.input{
+    border: none;
+    border-bottom: 2px solid palevioletred;
+    width: 100%;
+    padding: 12px 20px;
+    outline: none;
+}
+.input:focus{
+    border: 2px solid palevioletred;
+    border-radius: 15px;
+}
+.input1{
+    border: none;
+    width: 100%;
+    padding: 12px 20px;
+    outline: none;
+    margin-left: -11px;
+}
+
+form{
+    
+    width: 500px;
+    height: 400px;
+border-radius: 6px;
+display: grid;
+grid-template-rows:25% 25% 25% 25% ;
+grid-template-columns:35% 35%;
+
+
+padding-left: 10px;justify-content: center;
+align-items: center;
+}
+#submit{
+    display: flex;
+    justify-content: center;
+    margin-left:180px ;
+}
+
+#sara{
+    font-size: large;
+    font-weight: bold;
+    border: 2px solid black;
+}
+label{
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+th,td{
+    padding: 4px 8px;
+    }
+    tr:nth-child(odd){
+        background-color: #c84949;
+    }
+    tr{
+    border: 1px solid #95b3d7;
+    }
+    thead th{
+        background-color: #4f81bd;
+        text-transform: capitalize;
+        text-align: left;
+        font-size: 15px;
+        color: #fff;
+    }
+    
+    
+    tbody tr{
+        border-bottom: 1px solid#95b3d7;
+    }
+    tbody tr:nth-child(odd){
+        background-color: #dbe5f0;
+    }
+    tr *:nth-child(3),tr *:nth-child(4){
+        text-align: right;
+    }
+    .s1{
+        direction: rtl;
+        border: 2px;
+        border-collapse: collapse;
+        margin: 1em auto;
+    }
+    .container_table{
+        margin-top: 45px;
+        
+    }

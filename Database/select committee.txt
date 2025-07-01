@@ -1,0 +1,14 @@
+<?php 
+session_start();
+include 'dbh.inc.php';
+
+$sql='select * from  committee;';
+$result= mysqli_query($conn,$sql);
+
+
+while($row =$result->fetch_assoc())
+{
+echo" <tr>
+<td>".$row['ccode']."</td>
+<td>".$row['cname']."</td>";
+}

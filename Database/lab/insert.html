@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Task</title>
+    <link rel="stylesheet" href="style-form.css">
+</head>
+
+<body>
+    <div class="container_table">
+        <table class="s1">
+        <thead>
+        <tr id="head">
+            <th>رقم المعمل</th>
+            <th>المسوؤل</th>
+            <th>عدد طفايات الحريق</th>
+            <th>عدد التكيفات</th>
+            <th>عدد الكراسي </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+           <th>1</th>
+           <td>سارة</td>
+           <td>بنها</td>
+           <td>بنها</td>
+           <td>بنها</td>
+
+        </tr>
+        <tr>
+            <th>1</th>
+           <td>سارة</td>
+           <td>بنها</td>
+           <td>بنها</td>
+           <td>بنها</td>
+
+        </tr>
+    <th>1</th>
+        <td>سارة</td>
+        <td>بنها</td>
+        <td>بنها</td>
+        <td>بنها</td>
+
+        </tr>
+        <tr>
+            <th>1</th>
+            <td>سارة</td>
+            <td>بنها</td>
+            <td>بنها</td>
+            <td>بنها</td>
+
+        </tr>
+    </tbody>
+    </table>
+    </div>
+    <section>
+        <button id="b1">إضافة</button>
+        <button id="b2"><a href="update.html" target="_self" class="a1">تعديل</a></button>
+        <button id="b3"><a href="delete.html" target="_self" class="a1">حذف</a></button>
+
+        <form method="post"  enctype="multipart/form-data">
+            <div>
+                <label for="na">رقم المعمل</label><br>
+                <input class="input" id="na" name="lnum" type="number" required minlength="10" maxlength="50">
+            </div>
+
+
+            <div>
+                <label for="na">المسوؤل</label><br>
+                <input class="input" id="na" name="lmanger" type="number" required minlength="10" maxlength="50">
+            </div>
+            <div class="input1" >
+                <label for="Device_number"> عدد التكيفات</label><br>
+                <label >01</label>
+                <input  type="radio" name="1" value="value2"> 
+                <label >02</label>
+                <input  type="radio" name="1" value="value1">
+            </div>
+            <div class="input1" >
+                <label for="Device_number"> عدد طفايات الحريق</label><br>
+                <label >01</label>
+                <input type="radio" name="1" value="value2">
+                <label >02</label>
+                <input  type="radio" name="1" value="value1">
+            </div>
+            <div>
+                <label for="Conditioner_number">عدد الكراسي</label><br>
+                <input class="input" name="lchair" type="number" required>
+            </div>
+            <br>
+            <div id="submit">
+         
+                <button>إضافة</button>
+            </div>
+
+
+        </form>
+
+</body>
+
+</html>

@@ -1,0 +1,150 @@
+form {
+
+    background-color: white;
+    width: 100%;
+    height: 220px;
+    border-radius: 6px;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background: linear-gradient(200deg,lightpink ,deeppink, purple);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto;
+  
+}
+
+section{
+    background-color:white;
+    color: black;
+    width: 500px;
+    height: 500px;
+    border: 2px rgb(255, 255, 255);
+    border-style: outset;
+    text-align: center;
+    position:relative;
+    margin: auto;
+    margin-top: 100px;
+}
+
+button {
+    color: #000;
+    border-radius: 30px;
+    margin-top: 15px;
+    padding: 16px 25px;
+    font-size: larger;
+    border-color: palevioletred;
+    text-align: center;
+    width: 150px;
+    font-family: cursive;
+    cursor: pointer;
+
+}
+button:active{
+    transform: translateY(4px);
+}
+button:hover{
+    background-color: rgb(198, 164, 230);
+}
+
+#b1,#b2{
+    margin-right: 40px;
+}
+#b3{
+    margin-left: 20px;
+    background-color: rgb(177, 35, 182);
+    color: aliceblue;
+}
+
+div{
+    margin: 10px;
+}
+label{
+    color: purple;
+    font-family: cursive; 
+}
+
+input:focus{
+    border: 2px solid palevioletred;
+    border-radius: 15px;
+}
+
+
+.sa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#del{
+    border: none;
+    border-bottom: 2px solid palevioletred;
+    width: 90%;
+    padding: 12px 20px;
+    outline: none;
+  
+}
+#del:focus{
+    border: 2px solid palevioletred;
+    border-radius: 15px;
+}
+.a1{
+    text-decoration: none;
+color: black;
+}
+label{
+    font-size: larger;
+    font-weight: bold;
+}
+
+/*table */
+th,td{
+    padding: 4px 8px;
+    }
+    tr:nth-child(odd){
+        background-color: #c84949;
+    }
+    tr{
+    border: 1px solid #95b3d7;
+    }
+    thead th{
+        background-color: #4f81bd;
+        text-transform: capitalize;
+        text-align: left;
+        font-size: 15px;
+        color: #fff;
+    }
+    
+    
+    tbody tr{
+        border-bottom: 1px solid#95b3d7;
+    }
+    tbody tr:nth-child(odd){
+        background-color: #dbe5f0;
+    }
+    tr *:nth-child(3),tr *:nth-child(4){
+        text-align: right;
+    }
+    .s1{
+        direction: rtl;
+        border: 2px;
+        border-collapse: collapse;
+        margin: 1em auto;
+        position: sticky;
+        top: 0px;
+    }
+    .container_table{
+        margin-top: -300px;
+        margin-right: 180px;
+        
+    }
